@@ -421,6 +421,17 @@ sub phi by phi.ss02;
 sub chi by chi.ss02;
 sub psi by psi.ss02;
 sub omega by omega.ss02;
+sub iotatonos by iotatonos.ss02;
+sub iotadieresis by iotadieresis.ss02;
+sub iotadieresistonos by iotadieresistonos.ss02;
+sub upsilontonos by upsilontonos.ss02;
+sub upsilondieresis by upsilondieresis.ss02;
+sub upsilondieresistonos by upsilondieresistonos.ss02;
+sub omicrontonos by omicrontonos.ss02;
+sub omegatonos by omegatonos.ss02;
+sub alphatonos by alphatonos.ss02;
+sub epsilontonos by epsilontonos.ss02;
+sub etatonos by etatonos.ss02;
 ";
 labels = (
 {
@@ -31055,6 +31066,226 @@ nodes = (
 }
 );
 width = 643;
+}
+);
+},
+{
+color = 5;
+glyphname = iotatonos.ss02;
+lastChange = "2026-06-17 17:39:39 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = iota.ss02;
+},
+{
+pos = (90,-4);
+ref = tonos;
+}
+);
+width = 297;
+}
+);
+},
+{
+color = 5;
+glyphname = iotadieresis.ss02;
+lastChange = "2026-06-17 17:39:54 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = iota.ss02;
+},
+{
+pos = (-46,-4);
+ref = dieresiscomb;
+}
+);
+width = 297;
+}
+);
+},
+{
+color = 5;
+glyphname = iotadieresistonos.ss02;
+lastChange = "2026-06-17 17:40:05 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = iota.ss02;
+},
+{
+pos = (-34,-4);
+ref = dieresistonos;
+}
+);
+width = 297;
+}
+);
+},
+{
+color = 5;
+glyphname = upsilontonos.ss02;
+lastChange = "2026-06-17 17:41:14 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (227,-4);
+ref = tonos;
+},
+{
+ref = upsilon.ss02;
+}
+);
+width = 508;
+}
+);
+},
+{
+color = 5;
+glyphname = upsilondieresis.ss02;
+lastChange = "2026-06-17 17:41:24 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (90,-4);
+ref = dieresiscomb;
+},
+{
+ref = upsilon.ss02;
+}
+);
+width = 508;
+}
+);
+},
+{
+color = 5;
+glyphname = upsilondieresistonos.ss02;
+lastChange = "2026-06-17 17:41:35 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (85,-4);
+ref = dieresistonos;
+},
+{
+ref = upsilon.ss02;
+}
+);
+width = 508;
+}
+);
+},
+{
+color = 5;
+glyphname = omicrontonos.ss02;
+lastChange = "2026-06-17 17:40:36 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (282,-4);
+ref = tonos;
+},
+{
+ref = omicron.ss02;
+}
+);
+width = 561;
+}
+);
+},
+{
+color = 5;
+glyphname = omegatonos.ss02;
+lastChange = "2026-06-17 17:41:57 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (302,-4);
+ref = tonos;
+},
+{
+ref = omega.ss02;
+}
+);
+width = 643;
+}
+);
+},
+{
+color = 5;
+glyphname = alphatonos.ss02;
+lastChange = "2026-06-17 17:37:58 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (219,-4);
+ref = tonos;
+},
+{
+ref = alpha.ss02;
+}
+);
+width = 552;
+}
+);
+},
+{
+color = 5;
+glyphname = epsilontonos.ss02;
+lastChange = "2026-06-17 17:38:15 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = epsilon.ss02;
+},
+{
+pos = (190,-4);
+ref = tonos;
+}
+);
+width = 422;
+}
+);
+},
+{
+color = 5;
+glyphname = etatonos.ss02;
+lastChange = "2026-06-17 17:38:54 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (255,-4);
+ref = tonos;
+},
+{
+ref = eta.ss02;
+}
+);
+width = 541;
 }
 );
 },
